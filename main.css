@@ -6,9 +6,13 @@
     text-align: center;
 }
 
+.nav-item a {
+    color: white;
+}
+
 section {
     height: 50vh;
-    background-color: #ccc;
+    background-color: #c9deff;
     height: 100vh;
 }
 
@@ -16,8 +20,9 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #0d0064;
     z-index: 1;
+    color: white;
 }
 
 img {
@@ -27,5 +32,13 @@ img {
 }
 
 .carousel-item {
-    display: flex;
+    text-align: center;
 }
+
+.section-h2 {
+    padding-top: 150px;
+    text-align: center;
+}
+
+
+
