@@ -1,3 +1,7 @@
+body {
+    background-color: #C0C0C0;
+}
+
 .nav-item .nav-link.active {
     color: #fff;
 }
@@ -10,22 +14,25 @@
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 section {
-    height: 50vh;
-    background-color: #c9deff;
-    height: 100vh;
+    padding-top: 70px;
+    height: fit-content;
 }
 
 header {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #0d0064;
+    background-color: rgba(0, 0, 0);
     z-index: 1;
     color: white;
 }
 
-img {
+.carousel-image {
     height: 842px;
     width: 1270px;
     margin: 0 auto;
@@ -36,9 +43,60 @@ img {
 }
 
 .section-h2 {
-    padding-top: 150px;
     text-align: center;
 }
 
+.card {
+    margin: 8px 0;
+}
+
+.card-image {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+h1, h2 {
+    color: #000;
+}
+
+form {
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 160px;
+}
+
+label {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+form > button {
+    margin-top: 10px;
+}
 
 
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    .carousel-image {
+        height: 280px;
+        width: 422px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .carousel-image {
+        height: 421px;
+        width: 635px;
+        margin: 0 auto;
+    }
+}
